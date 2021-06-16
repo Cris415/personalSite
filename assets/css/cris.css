@@ -1,0 +1,23 @@
+span.portrait img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.portrait-container {
+ padding-top: 125px;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.screenshot img{
+  height: 300px;
+}
+.screenshot-small img{
+  height: 200px;
+}
+.icon i::before {
+  display: inline-block;
+  font-size: 50px;
+}
