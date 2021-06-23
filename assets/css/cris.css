@@ -11,8 +11,10 @@ span.portrait img {
  justify-content: center;
 }
 
-.screenshot img{
+.screenshot img {
   height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
 .screenshot-small img{
   height: 200px;
@@ -20,4 +22,10 @@ span.portrait img {
 .icon i::before {
   display: block;
   font-size: 50px;
+}
+
+.image.screenshot img:hover {
+  height: 350px;
+  width: 100%;
+  object-fit: fill;
 }
